@@ -99,8 +99,8 @@ export const birthdayConfig = {
       id: 1,
       src: "/media/memory-video-1.mp4",
       title: "A Little Memory",
-      caption: "A short clip from that night.",
-      message: "Some moments are better seen than described.",
+      caption: "A short clip with you.",
+      message: "✨ Our First Video Together… A Little Memory, A Lifetime of Smiles ❤️🥹",
       date: "",
     },
     {
@@ -108,7 +108,7 @@ export const birthdayConfig = {
       src: "/media/memory-video-2.mp4",
       title: "One More Little Memory",
       caption: "Another moment worth keeping.",
-      message: "I hope this one makes you smile too.",
+      message: "These videos hold beautiful memories of my birthday. ❤️ Thank you for making my day so special. I'll cherish these moments forever! 🥹✨",
       date: "",
     },
   ],
@@ -147,16 +147,16 @@ Take care of yourself, Bhoomi. ❤️`,
     finalLine: "Whatever the future holds, I hope we can treat each other with kindness.",
     continueLabel: "Ready for the Final Surprise? ✨",
     paragraphs: [
-      "There's something about that day I still want to explain properly.",
-      "When you asked me something and I answered on the \"pone\", I know my answer might have sounded different depending on how you understood it.",
-      "If you listen to that answer with your heart, you might find a positive feeling in it. But if you look at it only logically, you might interpret it negatively.",
-      "I'm not saying this to confuse you or to change your mind. I just want you to know that sometimes my feelings and the words I use don't come out as clearly as they should.",
-      "At the same time, I understand that feelings alone don't decide everything, and I respect the reality of our situation.",
-      "I don't want to force a future that may not be possible. I don't want to put a relationship label on something that isn't one.",
-      "What I genuinely hope for is that, if we both feel comfortable, we can move forward as good friends.",
-      "I value the trust between us, and I hope we can protect it through honesty, understanding, and respect.",
-      "Trust takes time, and I know it cannot be demanded. I can only try to be someone whose actions make that trust feel worthwhile.",
-      "No pressure. No promises about a future we cannot predict. Just a sincere wish for a good friendship and better days ahead.",
+  "There's something about that day I still want to explain properly.
+
+"When you asked me something and I answered on the pone, my heart wanted to give a positive answer, but my mind said otherwise because I know there's no clear future for us, and I can't take that risk.
+
+"Honestly, I've liked you since Shimla, but I never said it because I knew our future was uncertain. I'm not telling you this to change anything or expect something from you. I just want you to understand what I felt and why I answered that way.
+
+"I respect reality, and I think it's better for us to move forward with our friendship, keeping the same trust and understanding we share.
+
+"**Sometimes, the heart wants something that the mind knows it cannot risk.** ❤️"
+
     ],
     cards: [
       {
