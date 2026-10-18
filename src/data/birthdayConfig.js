@@ -146,18 +146,17 @@ Take care of yourself, Bhoomi. ❤️`,
     heading: "Bhoomi, One Thing I Want You to Understand...",
     finalLine: "Whatever the future holds, I hope we can treat each other with kindness.",
     continueLabel: "Ready for the Final Surprise? ✨",
-    paragraphs: [
-  "There's something about that day I still want to explain properly.
+paragraphs: [
+  "There's something about that day I still want to explain properly.",
 
-"When you asked me something and I answered on the pone, my heart wanted to give a positive answer, but my mind said otherwise because I know there's no clear future for us, and I can't take that risk.
+  "When you asked me something and I answered on the phone, my heart wanted to give a positive answer, but my mind said otherwise because I know there's no clear future for us, and I can't take that risk.",
 
-"Honestly, I've liked you since Shimla, but I never said it because I knew our future was uncertain. I'm not telling you this to change anything or expect something from you. I just want you to understand what I felt and why I answered that way.
+  "Honestly, I've liked you since Shimla, but I never said it because I knew our future was uncertain. I'm not telling you this to change anything or expect something from you. I just want you to understand what I felt and why I answered that way.",
 
-"I respect reality, and I think it's better for us to move forward with our friendship, keeping the same trust and understanding we share.
+  "I respect reality, and I think it's better for us to move forward with our friendship, keeping the same trust and understanding we share.",
 
-"**Sometimes, the heart wants something that the mind knows it cannot risk.** ❤️"
-
-    ],
+  "Sometimes, the heart wants something that the mind knows it cannot risk. ❤️"
+],
     cards: [
       {
         title: "No Pressure",
