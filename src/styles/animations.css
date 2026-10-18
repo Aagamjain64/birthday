@@ -1,0 +1,101 @@
+@keyframes drift {
+  from { transform: translateX(-8%); }
+  to { transform: translateX(8%); }
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes flicker {
+  from { transform: scaleY(1) scaleX(0.92); opacity: 0.85; }
+  to { transform: scaleY(1.18) scaleX(1); opacity: 1; }
+}
+
+@keyframes pulse-glow {
+  from { box-shadow: 0 0 0 0 rgba(230, 201, 138, 0.45); }
+  to { box-shadow: 0 0 28px 8px rgba(230, 201, 138, 0.12); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(8px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.35; transform: scale(0.85); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+.float {
+  animation: floaty 4.6s ease-in-out infinite;
+}
+
+.glow-live {
+  animation: pulse-glow 2.4s ease-in-out infinite alternate;
+}
+
+.shake {
+  animation: shake 0.42s ease;
+}
+
+.flap.open {
+  transform: rotateX(180deg);
+  transition: transform 0.7s ease;
+}
+
+.flap {
+  transition: transform 0.7s ease;
+}
+
+.gift.open .gift-lid {
+  transform: rotate(-42deg) translateY(-18px);
+  transition: transform 0.8s ease;
+}
+
+.gift-lid {
+  transition: transform 0.8s ease;
+}
+
+.enter-burst {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 6;
+  background: radial-gradient(circle at center, rgba(246, 226, 170, 0.28), transparent 55%);
+}
+
+.knife-hint {
+  transform-origin: 42px 3px;
+  animation: knife-cut 1.8s ease-in-out infinite;
+}
+
+@keyframes knife-cut {
+  0% { transform: translate(52px, 92px) rotate(18deg); opacity: 0.2; }
+  20% { opacity: 1; }
+  80% { transform: translate(168px, 168px) rotate(28deg); opacity: 1; }
+  100% { transform: translate(188px, 188px) rotate(32deg); opacity: 0; }
+}
+
+.crackers-layer {
+  z-index: 8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .flame {
+    animation: none;
+  }
+}

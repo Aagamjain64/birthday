@@ -1,0 +1,46 @@
+@media (max-width: 640px) {
+  .screen {
+    padding: 4.6rem 1rem 6.2rem;
+  }
+
+  .countdown-grid {
+    gap: 0.4rem;
+  }
+
+  .chapter-progress {
+    right: 0.35rem;
+  }
+
+  .balloon-stage {
+    height: 280px;
+  }
+
+  .music-player span {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .countdown-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .balloon {
+    width: 68px;
+  }
+
+  .balloon svg {
+    width: 68px;
+    height: 116px;
+  }
+}
+
+@media (min-width: 860px) {
+  .heart-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
