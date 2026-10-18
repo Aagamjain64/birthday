@@ -5,7 +5,7 @@ export const birthdayConfig = {
   birthdayTime: "00:00",
   timeZone: "Asia/Kolkata",
   secretPin: "1904",
-  signature: "Aagam",
+  signature: " Your Friend Aagam",
   videoPath: "/media/birthday-video.mp4",
   musicPath: "/media/background-music.mp3",
   sounds: {
