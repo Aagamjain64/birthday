@@ -5,7 +5,7 @@ export const birthdayConfig = {
   birthdayTime: "00:00",
   timeZone: "Asia/Kolkata",
   secretPin: "1904",
-  signature: "Your Friend",
+  signature: "Aagam",
   videoPath: "/media/birthday-video.mp4",
   musicPath: "/media/background-music.mp3",
   sounds: {
@@ -149,7 +149,7 @@ Take care of yourself, Bhoomi. ❤️`,
 paragraphs: [
   "There's something about that day I still want to explain properly.",
 
-  "When you asked me something and I answered on the phone, my heart wanted to give a positive answer, but my mind said otherwise because I know there's no clear future for us, and I can't take that risk.",
+  "When you asked me something and I answered on the pone, my heart wanted to give a positive answer, but my mind said otherwise because I know there's no clear future for us, and I can't take that risk.",
 
   "Honestly, I've liked you since Shimla, but I never said it because I knew our future was uncertain. I'm not telling you this to change anything or expect something from you. I just want you to understand what I felt and why I answered that way.",
 
@@ -198,7 +198,7 @@ Happy Birthday, Bhoomi! 💖`,
   closing: {
     heading: "That's the end of this little birthday universe...",
     subtitle: "But I hope your beautiful memories keep going. ✨",
-    prompt: "Kuch bolna ho to yahan likh do.",
+    prompt: "type...",
     sendLabel: "Send",
     sent: "Saved. Thank you.",
     skipLabel: "Skip",
