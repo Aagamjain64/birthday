@@ -1,4 +1,4 @@
-# A little birthday universe for Bhoomi
+# A little birthday universe for friend
 
 A mobile-first React + Vite birthday journey: countdown, secret PIN, cake, video, balloons, memories, a sincere letter, a friendship note, and a final surprise.
 
@@ -7,7 +7,7 @@ This is a frontend-only gift site. The PIN is a playful lock, not real security.
 ## Run locally
 
 ```bash
-cd bhoomi-birthday
+cd friend -birthday
 npm install
 npm run dev
 ```
@@ -51,9 +51,9 @@ npm run preview
 
 ## Deploy on Netlify
 
-1. Push this `bhoomi-birthday` folder as a Git repo, or drag the project into Netlify.
+1. Push this `friend -birthday` folder as a Git repo, or drag the project into Netlify.
 2. Build command: `npm run build`
 3. Publish directory: `dist`
 4. `netlify.toml` already includes SPA redirects.
 
-If you deploy from a parent repo, set the Netlify base directory to `bhoomi-birthday`.
+If you deploy from a parent repo, set the Netlify base directory to `friend -birthday`.
